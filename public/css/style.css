@@ -1,0 +1,95 @@
+#photoSection {
+	background: url("/images/smokey-mountains.jpg");
+	background-position: 50% 90%;
+	height: 500px;
+}
+
+#topRow {
+	background: black;
+	text-align: center;
+	font-family: 'Overpass Mono', monospace;
+	color: white;
+}
+
+#menuRow {
+	background: black;
+	padding-left: 38%;
+	color: white;
+}
+
+#name {
+	font-size: 40px;
+}
+
+#jobTitle {
+	font-size: 24px;
+}
+
+#bioSection {
+	height: 500px;
+	background-color: rgba(0, 0, 0, .5);
+	font-family: 'Saira', sans-serif;
+	font-size: 16px;
+	color: white;
+	display: none;
+	padding-left: 35px;
+}
+
+#projectSection {
+	height: 500px;
+	background-color: rgba(0, 0, 0, .5);
+	font-family: 'Saira', sans-serif;
+	padding-left: 35px;
+	display: none;
+}
+
+#contactSection {
+	height: 500px;
+	background-color: rgba(0, 0, 0, .5);
+	font-family: 'Saira', sans-serif;
+	font-size: 24px;
+	padding-left: 35px;
+	display: none;
+	color: white;
+}
+
+#bioParagraph {
+	margin-top: 15px;
+}
+
+.menuTab {
+	float: left;
+	margin-left: 10px;
+	font-size: 24px;
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	padding: 30px 15px 30px 15px;
+	margin: 10px 5px 10px 5px;
+}
+
+#profilePic {
+	box-shadow: 4px 4px 10px #232323;
+}
+
+#connectSection {
+	box-shadow: 4px 4px 10px #232323;
+}
+
+.connectIcon:hover {
+	border-style: solid;
+	border-color: white;
+	border-width: 10px;
+}
+
+.portfolioProject {
+	background: #eaeaea;
+	margin: 7px;
+	border-radius: 15px;
+	padding: 7px;
+}
+
+.projectTitle {
+	font-size: 24px;
+}
