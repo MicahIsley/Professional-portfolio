@@ -2,7 +2,8 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<meta name='viewport' content='width=device-width'/>
 	<link href="https://fonts.googleapis.com/css?family=Overpass+Mono|Saira" rel="stylesheet">
 	<link rel='stylesheet' href='css/style.css'>
@@ -49,6 +50,56 @@
 						<p>I graduated from Eastern University in 2015 with a BA in Music. However, after discovering the world of computer programming, I have spent the last year studying and practicing all sorts of coding languages, libraries, and technologies. What makes me unique as a developer is my background in music. Coming from a different background allows me to take a different perspective in problem solving and creativity. Also, as a musician, I am often asked to learn and perform music on short notice. This ability to learn new material quickly has certainly helped my process of becoming a web developer.</p> 
 					</div>	
 				</div>
+			</div>
+			<div class="row" id="projectSection">
+				<div class="row">
+					<div id="projectTitle">Projects</div>
+				</div>
+				<div class="row" id="projectDisplay">
+					<div class="col-sm-5">
+						<div class="panel-group projectPanel" id="accordionProjects1">
+	  						<div class="panel panel-default">
+	    						<div class="panel-heading">
+	      							<a data-toggle="collapse" data-parent="#accordionProjects1" href="#collapseProject1"><div class="panel-title">Spirit Website</div></a>
+	   							</div>
+	    						<div id="collapseProject1" class="panel-collapse collapse">
+	      							<div class="panel-body">
+	      								<p>As the team leader for this project, I assisted with all aspects of development. My primary responsibilites were coding the logic, setting up the database and API, and deploying the website. This application uses Passport for user authentication.</p>
+										<a href="https://morning-fortress-31252.herokuapp.com/"><div class="deployedLink">Website</div></a>
+										<a href="https://github.com/MicahIsley/Spirit-app"><div class="repoLink">Repo</div></a>
+	    							</div>
+	    						</div>
+	  						</div>
+	  						<div class="panel panel-default">
+	    						<div class="panel-heading">
+	      							<a data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProject2"><div class="panel-title">Game Website</div></a>
+	   							</div>
+	    						<div id="collapseProject2" class="panel-collapse collapse">
+	      							<div class="panel-body">
+	      								<p>I created this website for two reasons, to display a variety of coding skills and to aid my friends in playing games. This website uses customized bootstrap elements, jQuery, mySql, and NodeJs.</p>
+										<a href="https://morning-anchorage-59791.herokuapp.com/"><div class="deployedLink">Website</div></a>
+										<a href="https://github.com/MicahIsley/Galactus"><div class="repoLink">Repo</div></a>
+	    							</div>
+	    						</div>
+	  						</div>
+	  						<div class="panel panel-default">
+	    						<div class="panel-heading">
+	      							<a data-toggle="collapse" data-parent="#accordionProjects" href="#collapseProject3"><div class="panel-title">Down the Shore Website</div></a>
+	   							</div>
+	    						<div id="collapseProject3" class="panel-collapse collapse">
+	      							<div class="panel-body">
+	      								<p>On this project, I worked with a team to create a website that could be used to manage a person's rental property. My responsibilities for this project were creating the server routes, setting up the database, processing the data from the database, and deploying the app.</p>
+										<a href="https://powerful-sea-34874.herokuapp.com/"><div class="deployedLink">Website</div></a>
+										<a href="https://github.com/MicahIsley/Down_the_Shore"><div class="repoLink">Repo</div></a>
+	    							</div>
+	    						</div>
+	  						</div>
+	  					</div>
+	  				</div>
+  				</div>
+			</div>
+			<div class="row" id="contactSection">
+				<div class="col-sm-7">Email: micah.isley@gmail.com</div>
 				<div class= "col-sm-4">
 					<div class="panel panel-default col-sm-12" id="connectSection">
 			  			<div class="panel-heading">
@@ -69,37 +120,6 @@
 			  			</div>
 					</div>
 				</div>
-			</div>
-			<div class="row" id="projectSection">
-				<div class="col-sm-8">
-					<div class="row">
-						<div class="portfolioProject" id="spiritApp">
-							<div class="projectTitle">Spirit Website</div>
-								<p>As the team leader for this project, I assisted with all aspects of development. My primary responsibilites were coding the logic, setting up the database and API, and deploying the website. This application uses Passport for user authentication.</p>
-								<a href="https://morning-fortress-31252.herokuapp.com/"><div class="deployedLink">Website</div></a>
-								<a href="https://github.com/MicahIsley/Spirit-app"><div class="repoLink">Repo</div></a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="portfolioProject" id="galactus">
-							<div class="projectTitle">Game Website</div>
-								<p>I created this website for two reasons, to display a variety of coding skills and to aid my friends in playing games. This website uses customized bootstrap elements, jQuery, mySql, and NodeJs.</p>
-								<a href="https://morning-anchorage-59791.herokuapp.com/"><div class="deployedLink">Website</div></a>
-								<a href="https://github.com/MicahIsley/Galactus"><div class="repoLink">Repo</div></a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="portfolioProject" id="downTheShore">
-							<div class="projectTitle">Down The Shore Website</div>
-								<p>On this project, I worked with a team to create a website that could be used to manage a person's rental property. My responsibilities for this project were creating the server routes, setting up the database, processing the data from the database, and deploying the app.</p>
-								<a href="https://powerful-sea-34874.herokuapp.com/"><div class="deployedLink">Website</div></a>
-								<a href="https://github.com/MicahIsley/Down_the_Shore"><div class="repoLink">Repo</div></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row" id="contactSection">
-				<div>Email: micah.isley@gmail.com</div>
 			</div>
 		</div>
 		<div class="container-fluid" id="menuRow">
