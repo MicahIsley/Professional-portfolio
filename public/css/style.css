@@ -32,7 +32,11 @@
 	font-size: 16px;
 	color: white;
 	display: none;
-	padding-left: 35px;
+	padding-left: 25%;
+}
+
+#aboutMe {
+	margin-left: 30%;
 }
 
 #projectSection {
@@ -55,6 +59,9 @@
 	padding-left: 35px;
 	display: none;
 	color: white;
+}
+
+#email {
 	margin-top: 25px;
 }
 
@@ -80,6 +87,7 @@
 
 #connectSection {
 	box-shadow: 4px 4px 10px #232323;
+	margin-top: 25px;
 }
 
 .connectIcon:hover {
