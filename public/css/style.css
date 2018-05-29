@@ -1,3 +1,7 @@
+html {
+	background: black;
+}
+
 #photoSection {
 	background: url("/images/smokey-mountains.jpg");
 	background-position: 50% 90%;
@@ -79,6 +83,13 @@
 	border-color: white;
 	padding: 30px 15px 30px 15px;
 	margin: 10px 5px 10px 5px;
+	-webkit-transition: transform .2s ease-in;
+}
+
+.menuTab:hover {
+	transform: scale(1.2);
+	border-color: gray;
+	color: gray;
 }
 
 #profilePic {
@@ -90,10 +101,12 @@
 	margin-top: 25px;
 }
 
+.connectIcon {
+	-webkit-transition: transform .2s ease-in;
+}
+
 .connectIcon:hover {
-	border-style: solid;
-	border-color: white;
-	border-width: 10px;
+	transform: scale(1.2);
 }
 
 .portfolioProject {
